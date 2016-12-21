@@ -1,0 +1,15 @@
+name: CustomKit
+version: 1.0.0
+main: RTG\Xeon\CustomKit
+api: [2.0.0, 2.1.0, 3.0.0]
+author: InspectorGadget
+website: https://xeonpe.com
+
+commands:
+  kit:
+    usage: "kit"
+    description: "Kit Command!"
+    permission: kit.command
+permissions:
+  kit.command:
+    default: op
